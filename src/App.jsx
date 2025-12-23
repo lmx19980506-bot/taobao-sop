@@ -1,14 +1,14 @@
 import React from 'react';
 import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
-import Home from './pages/Home';
-import WorkOrder from './pages/WorkOrder';
-import Classification from './pages/Classification';
-import Process from './pages/Process';
-import SpecialCase from './pages/SpecialCase';
-import RiskControl from './pages/RiskControl';
-import DataAnalysis from './pages/DataAnalysis';
-import DeploymentGuide from './pages/DeploymentGuide';
+import Home from './pages/Home.jsx';
+import WorkOrder from './pages/WorkOrder.jsx';
+import Classification from './pages/Classification.jsx';
+import Process from './pages/Process.jsx';
+import SpecialCase from './pages/SpecialCase.jsx';
+import RiskControl from './pages/RiskControl.jsx';
+import DataAnalysis from './pages/DataAnalysis.jsx';
+import DeploymentGuide from './pages/DeploymentGuide.jsx';
 
 const App = () => {
   return (

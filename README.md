@@ -13,6 +13,7 @@
 3. 构建生产版本:
    `npm run build`
 
-## 部署到 GitHub Pages
+## 部署说明
 
-由于本项目是 React 应用，建议使用 GitHub Actions 自动构建部署，或者本地运行 `npm run build` 后将 `dist` 文件夹的内容上传。
+本项目已针对 Vercel 和 GitHub Pages 进行了优化。
+推荐使用 Vercel 进行一键部署。
